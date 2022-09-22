@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    max-width: fit-content;
+    margin-inline: auto;
+}
+
+.global {
+    border: 2px solid rgb(168, 54, 54);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-block: 100px;
+    padding: 30px;
+}
+
+.outer {
+    border: 2px solid rgb(41, 97, 41);
+
+    padding: 30px;
+    margin: 10px;
+}
+
+.inner {
+    border: 2px solid rgb(57, 57, 117);
+
+    padding: 30px;
+    margin: 10px;
+}
